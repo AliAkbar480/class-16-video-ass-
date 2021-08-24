@@ -1,0 +1,239 @@
+
+
+.full-website{
+    width: 1532px;
+    margin: auto;
+}
+
+.header{
+    background: #40407a;
+}
+.header-logo img{
+   width: 121px;
+   height: auto;
+   padding-bottom: 0px;
+}
+.header-menu{}
+.header-menu ul{
+    list-style: none;
+    text-align: right;
+    padding-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    
+}
+.header-menu ul li a{
+    color: #ddd;
+    padding: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    line-height: 64px;
+    position: relative;
+    top: 6px;
+}
+.header-menu ul li a:hover{
+    color: #fff;
+}
+/*banner sectart*/
+.banner{
+    background: url(https://www.ofsherwood.com/wp-content/uploads/2020/10/apex-prod-5.png) no-repeat;
+    background-position: top center;
+    height: 740px;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+   
+}
+.banner::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.568);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner h2{
+    margin-top: 250px;
+    background-color: rgba(64,64,122, .4);
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.banner h3 {
+    background-color: rgba(119,239,87, .6);
+    padding: 5px 25px;
+    width: 403px;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.banner h4 {
+    background-color: rgba(239,87,119, .5);
+    padding: 10px 10px;
+    width: 185px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid;
+    cursor: pointer;
+}
+/*About section start*/
+.about{
+    background: #ebfde6;
+}
+.about img{
+    width: 150px;
+    height: auto;
+}
+
+/* servic section start */
+.service{
+    background: #e6ebfd;
+}
+.service .card {
+    text-align: center;
+    padding: 10px;
+    width: 261px;
+    margin-right: 69px;
+    border-radius: 21px;
+    border-color: pink;
+    box-shadow: 1px 1px 10px 11px #ddd;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.service .card a{
+    font-size: 30px;
+    background: #e6f7fd;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 5px auto;
+    transition: .4s;
+    
+}
+.service .card:hover{
+    transform: scale(1.2);
+} 
+.service .card:hover a{
+    background: #f000b0;
+    color: #ddd;
+}
+
+
+.contact{
+    background: #e6f7fd;
+}
+
+/* contact-me start */
+.contact-me{
+    background: #eeecee;
+}
+.contact-me ul{
+    list-style: none;
+    text-align: center;
+}
+.contact-me ul li{
+    display: inline-block;
+    margin-left: -5px;
+    
+}
+.contact-me ul li a{
+    text-decoration: none;
+    background: #00b0f0;
+    color: #ddd;
+    display: inline-block;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 10px 3px #ddd;
+    font-weight: bold;
+    transition: .3s;
+    
+}
+.contact-me ul li a:hover{
+    color: #fff;
+}
+
+.contact-me .border{
+    background: #00b0f0;
+    width: 150px;
+    height: 7px;
+    margin: 15px auto;
+    
+}
+.contact-me p{
+    margin-bottom: -2px;
+}
+
+.contact-me .heading-mail{
+    font-size: 10px;
+}
+
+.contact-me .card{
+    background: #dbf5ff;
+    padding-bottom: 50px;
+}
+.contact-me .form-1{
+    width: 300px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding-top: 50px;
+}
+.contact-me .form-2{
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding-top: 50px;
+    background: #ffdbf5;
+}
+.contact-me a{
+    font-size: 30px;
+}
+
+/* footer-section start */
+.footer{
+    background: url(https://th.bing.com/th/id/R.3ff23cda4fad4779827e32f2e376e1f5?rik=rpcZfmBnfg0%2f9w&riu=http%3a%2f%2f3.bp.blogspot.com%2f-cArqCeISA0A%2fT31zBYMud7I%2fAAAAAAAAdm0%2f--fEK7nAQaI%2fs1600%2f3d-abstract-achtergronden-hd-3d-abstract-wallpapers-26.jpg&ehk=k73Z2oL6OKAfyJmiqOpYE4oSwbEXO6R%2ff6pptywUQnk%3d&risl=&pid=ImgRaw&r=0);
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    color: #ddd;
+}
+.footer::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.521);  
+    z-index: -1;
+}
+.footer h4{
+    z-index: 1;
+    color: #fff;
+}
+
+
+.footer a i {
+    color: #fff;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 23px;
+    transition: .4s;
+}
+.footer a:hover i{ 
+    transform: scale(1.2);
+    color: #ef5777;
+}
+
